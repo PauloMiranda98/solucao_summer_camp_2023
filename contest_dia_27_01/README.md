@@ -81,7 +81,7 @@ Basecamente implementar o que foi pedido. Questão muito chata de implementar.
 Resolvendo com DP. A solução dp(i, j, e). $i$ é o lado esquerdo e $j$ o lado direito.
 $e = 1$ diz que já pulei alguém do lado esquerdo e $e = 2$ diz que já pulei alguém do lado direito. $e = 0$ não pulei ninguém.
 
-Observação: para memorizar, só precisamos usar ($i$, $e$). O $j$ pode ser derivável a partir da combinação de $i$ e $e$.
+Observação: para memorizar, só precisamos usar ( $i$, $e$). O $j$ pode ser derivável a partir da combinação de $i$ e $e$.
 
 Complexidade $O(N)$
 </details>
@@ -94,10 +94,9 @@ Complexidade $O(N)$
 
 Solução precisa aplicar log para evitar geração de um número muito grande. 
 
-$ a^b = c^d $ -> $ log(a^b) = log(c^d) $ -> $ b*log(a) = d*log(c) $
+$a^b = c^d$ -> $log(a^b) = log(c^d)$ -> $b * log(a) = d * log(c)$
 
 Além disso, precisa lidar com erro de precisão e tratar os casos com 0.
-
 
 </details>
 
