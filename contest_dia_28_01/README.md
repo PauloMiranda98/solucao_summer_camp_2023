@@ -8,7 +8,7 @@ Contest: https://vjudge.net/contest/539994
 <summary><b>Solução</b></summary>
 Podemos resolver usando exponenciação de matrizes.
 
-$$
+```math
 \begin{vmatrix}
 f(n) \\ 
 f(n-1) \\ 
@@ -37,9 +37,9 @@ g(n-1) \\
 g(n-2) \\ 
 g(n-3)
 \end{vmatrix} 
-$$
+```
 
-$$
+```math
 \begin{vmatrix}
 f(n) \\ 
 f(n-1) \\ 
@@ -68,7 +68,8 @@ g(2) \\
 g(1) \\ 
 g(0)
 \end{vmatrix} 
-$$
+```
+
 </details>
 
 ## B - Sorting Colored Array
@@ -148,7 +149,7 @@ Primeiro você vai rodar uma BFS para marcar as posição que são perigosas. Es
 
 Como o gcd(10, 45) é 5. Temos que F(a) = F(b) para todo a/5 = b/5 (divisão inteira). Então vamos focar em calcular F(n).
 
-$$
+```math
 \begin{vmatrix}
 f(n) \\ 
 f(n-5) \\ 
@@ -186,7 +187,7 @@ f(n-35) \\
 f(n-40) \\
 f(n-45)
 \end{vmatrix} 
-$$
+```
 
 Pode deixar os primeiros casos (n < 45) já calculados. 
 
